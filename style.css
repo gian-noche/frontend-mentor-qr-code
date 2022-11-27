@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    font-family: Outfit, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.2rem;
+    border-radius: 20px;
+
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+span {
+    display: inline-block;
+    margin: 1.5rem auto;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    width: 85%;
+    margin: 0 auto 1.5rem;
+
+    font-size: 1.1rem;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    display: block;
+}
+
+.attribution a { 
+    color: hsl(218, 44%, 22%);
+    text-decoration: none;
+    font-weight: 700;
+}
